@@ -9,27 +9,27 @@
 
 ## Create security groups
 - These security groups will be used when creating the instances
-
+- Where there are areas with white boxes, use your local IP
 App
-![img.png](img.png)
+![img.png](images/1231312312.png)
 
 Database
 ![img_3.png](images/img_32432423.png)
 
 Bastion
-![img_1.png](img_1.png)
+![img_1.png](images/12312312.png)
 
 ## Create separate NACL for subnets
 - Assign the NACL to the corresponding subnets when complete
 
 Public 
-![img_2.png](img_2.png)
+![img_2.png](images/123123123.png)
 
 Private
 ![img_2.png](images/img_2.png)
 
 Bastion
-![img_3.png](img_3.png)
+![img_3.png](images/12312312312.png)
 
 ## Final steps
 - Set the correct NACL for each of the subnets
