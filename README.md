@@ -1,14 +1,14 @@
 # VPC, Subnets, Networking, NACL
 
 ## Initial steps
-- Create a VPC with the ip 10.103.0.0/24
-- Create Subnets (Public, private, bastion) with different IPS for each subnet `10.103.CHANGE_THIS_NUMBER.0/24`
-- Create internet gateway 
-- Create route table and add route 0.0.0.0/0 and target internet gateway 
+- Create a VPC with the ip `10.103.0.0/24`. The 103 can be varied
+- Create Subnets (Public, Private, Bastion) with different IPS for each subnet `10.103.CHANGE_THIS_NUMBER.0/24`. Use 1,2 and 3 for the three subnets
+- Create an internet gateway 
+- Create a route table and add route 0.0.0.0/0 and target internet gateway 
 - Set the route table in the public and bastion subnets 
 
 ## Create security groups
-  
+- These security groups will be used when creating the instances
 App
 ![img_2.png](images/img_6764.png)
 
@@ -19,6 +19,7 @@ Bastion
 ![img.png](images/img.png)
 
 ## Create separate NACL for subnets
+- Assign the NACL to the corresponding subnets when complete
 Public 
 ![img_1.png](images/img_1.png)
 
