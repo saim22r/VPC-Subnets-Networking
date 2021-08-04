@@ -20,6 +20,7 @@ Bastion
 
 ## Create separate NACL for subnets
 - Assign the NACL to the corresponding subnets when complete
+
 Public 
 ![img_1.png](images/img_1.png)
 
