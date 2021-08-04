@@ -9,6 +9,7 @@
 
 ## Create security groups
 - These security groups will be used when creating the instances
+
 App
 ![img_2.png](images/img_6764.png)
 
