@@ -10,7 +10,7 @@
 ## Create security groups
   
 App
-  ![img_2.png](img_2.png)
+  ![img_2.png](images/img_2.png)
 
 Database
-  ![img_3.png](img_3.png)
+  ![img_3.png](images/img_3.png)
