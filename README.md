@@ -10,25 +10,26 @@
 ## Create security groups
   
 App
-![img_2.png](images/img_2.png)
+![img_2.png](images/img_6764.png)
 
 Database
-![img_3.png](images/img_3.png)
+![img_3.png](images/img_32432423.png)
 
 Bastion
-![img.png](img.png)
+![img.png](images/img.png)
 
 ## Create separate NACL for subnets
 Public 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
 Private
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 
 Bastion
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)
 
 ## Final steps
+- Set the correct NACL for each of the subnets
 - Create instances for app (public), DB (private) and bastion (public)
 - Choose the appropriate subnets for each of them and the correct security groups 
 - Once running, copy the eng89_devops.pem key into the bastion server using the command `scp -i eng89_devops.pem eng89_devops.pem ubuntu@BASTION_IP:~/` 
