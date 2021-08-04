@@ -10,6 +10,7 @@
 ## Create security groups
 - These security groups will be used when creating the instances
 - Where there are areas with white boxes, use your local IP
+
 App
 ![img.png](images/1231312312.png)
 
